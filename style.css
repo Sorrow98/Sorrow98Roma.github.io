@@ -1,0 +1,36 @@
+body {
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjm8aoG6RmZRBxtT-s66R091QlhGolv1MJjqHzYq3xPhHjEzA0MB6cAFTM7jNC9Ucv09tRyDv8HZ5cbnaN78mzDShG5ZNQ8oTosDFd41dWoEkPTJPycetjSbuFHBS33BXG9PFF3GzMSZX0/s0/AS_Roma_flag.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    width: 500px;
+    height: 500px;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+        1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+.fade {
+    animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
